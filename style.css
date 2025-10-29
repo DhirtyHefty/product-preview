@@ -72,14 +72,13 @@ body{
     justify-content: center;
     gap: 0.3rem;
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: none;
     border-radius: 5px;
     color: var(--CARD-BG-COLOR);
     background-color: var(--PRICE-N-BUTTON);
     cursor: pointer;
-    transition: background-color 0.2s ease;
-    -webkit-tap-highlight-color: transparent;
+    transition: var(--PRICE-N-BUTTON) 0.2s ease;
 }
 
 .btn:hover{
